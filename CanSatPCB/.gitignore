@@ -1,0 +1,6 @@
+fp-info-cache
+CanSat-PCB-backups/
+*.env
+*.lck
+\#auto_saved_files#
+*.kicad_prl
