@@ -223,7 +223,9 @@
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -306,6 +308,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -384,6 +390,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -407,6 +414,7 @@
     "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -415,12 +423,25 @@
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "subpart_id_separator": 0,
+    "used_designators": ""
   },
   "sheets": [
     [
       "a1548337-1355-40e9-bc99-5140aa8d75a0",
       "Root"
+    ],
+    [
+      "1d5b5d5f-ed20-4cd1-af66-14bde82a72d5",
+      "SistemaDeAlimentacion"
+    ],
+    [
+      "5902e209-7be2-487e-8808-d9fea221258b",
+      "BuckConverter_3.3V"
+    ],
+    [
+      "94d65249-562c-4795-aded-b3ebbbd322cb",
+      "BuckConverter_5V"
     ]
   ],
   "text_variables": {},
